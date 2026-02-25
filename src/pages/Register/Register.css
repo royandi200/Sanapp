@@ -1,0 +1,133 @@
+.registerMarginTop1{
+  margin-top: 6vh;
+}
+
+.registerMarginTop2{
+  margin-top: 12vh;
+}
+
+.registerMarginTop3{
+  margin-top: 16px;
+}
+
+.font40{
+  font-size: 40px;
+}
+
+.font17{
+  font-size: 17px !important;
+}
+
+.icon{
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.registerBtn{
+  --background: #E66E5A;
+  --background-activated: #E66E5A;
+  --background-focused: #E66E5A;
+  --background-hover:	#E66E5A;
+  height: 8vh;
+  width: 100%;
+  font-size: 18px;
+  --border-radius	:300px;
+  margin-bottom: 32px;
+  margin-top: 16px;
+}
+
+.registerImg{
+  height: 14vh;
+  width: 18vh;
+}
+
+
+.registerSing{
+ color: #aaa;
+ font-size: 18px;
+ 
+}
+
+.noPadding{
+  --ion-grid-padding: 0px;
+  --ion-grid-margin: 0px;
+}
+
+.gridNoPadding{
+  --ion-grid-padding: 0px 0px 0px 0px;
+}
+
+.columNoPadding{
+  --ion-grid-column-padding: 0px 0px 0px 0px;
+}
+.paddingTop{
+  padding-top: 5px;
+}
+
+.map{
+  width: 100%;
+  min-height: 20vh;
+}
+
+.fontmilkshake{
+  font-family: 'milkshake';
+  color: #2C4841;
+}
+
+.fontHelvetica{
+  font-family: 'helvetica' !important;
+  color: #748A9DC1 !important;
+}
+
+.icon01{
+  margin-left: 8px;
+}
+
+.icon02{
+  margin-right: 8px;
+}
+
+.registerContent{
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-left: -16px;
+  margin-right: -16px;
+  margin-top: -16px;
+
+  -webkit-box-shadow: 0px 30px 30px -40px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 30px 30px -40px rgba(0,0,0,0.4);
+  box-shadow: 0px 30px 30px -40px rgba(0,0,0,0.4);
+}
+
+.registerContent2{
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 30vh;
+}
+
+.App-map {
+  height: 30vh;
+  width: 100%;
+}
+
+.RegisterTxtTermino{
+  margin-top: 10vh;
+  padding: 24px;
+  padding-top: 8px;
+  max-height: 95vh ;
+  overflow-y: auto;
+}
+
+.registetTc{
+  
+  color: #748A9D;
+  font-size: 16px;
+  font-family: Helvetica  ;
+}

@@ -1,0 +1,65 @@
+.docLogo{
+  margin-top: 13vh;
+  height: 14.5vh;
+  width: 14.5vh;
+  margin-left: calc(50vw - 7.25vh - 16px);
+}
+
+.docTitle{
+  font-size: 39px;
+  color: #2C4841;
+}
+
+.docInput{
+  border-radius: 8px !important;
+  color: #000;
+  --background: #F0F4F8;
+  margin-bottom: 16px;
+  --border-color: #F0F4F8;
+  font-family: "Helvetica";
+}
+
+
+.docInputVerde{
+  border-radius: 8px !important;
+  color: #000;
+  --background: #00646275;
+  margin-bottom: 16px;
+  --border-color: #00646275;
+  font-family: "Helvetica";
+}
+.docInputRojo{
+  border-radius: 8px !important;
+  color: #000;
+  --background: #E66E5A75;
+  margin-bottom: 16px;
+  --border-color: #E66E5A75;
+  font-family: "Helvetica";
+}
+
+.docBorder{
+  border: solid 1px #F0F4F8;
+  float: left;
+  border-radius: 8px;
+}
+
+.docVerBorder{
+  float: left;
+  border-radius: 8px;
+}
+
+.docEstatus{
+  float: left;
+  color: #A6BCD0;
+  height: 7vh;
+  line-height: 7vh;
+  width: 20vw;
+}
+
+.docVer{
+  height: 7vh;
+  line-height: 7vh;
+  color: #A6BCD0;
+  width: 35vw;
+  background-color: #F0F4F8;
+}

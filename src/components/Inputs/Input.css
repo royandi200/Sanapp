@@ -1,0 +1,52 @@
+.borderBottom{
+  border-bottom: 2px solid #F0F4F8;
+}
+
+.backColor{
+  border-radius: 8px !important;
+  color: #A6BCD0;
+  --background: #F0F4F8;
+  margin-bottom: 16px;
+  --border-color: #F0F4F8;
+  font-family: "Helvetica";
+}
+
+
+ion-item {
+  --highlight-color-valid: transparent;
+  --highlight-color-invalid: transparent;
+  --highlight-color-focused: var(--ion-color-light);
+  font-size: 20px;
+}
+
+
+
+.inputIcon{
+  margin-top: 25px;
+  width: 22px;
+  height: 22px; 
+}
+.inputIcon2{
+  margin: 22px 10px 10px !important;
+  width: 22px;
+  height: 22px; 
+}
+.inputIcon3{
+  margin: 15px 10px 10px !important;
+  width: 40px;
+  height: 40px; 
+}
+
+.iconCbb{
+  margin-top: 7vw;
+  margin-right: 6vw;
+  width: 6vw;
+  height: 6vw; 
+}
+
+.inputIconOnly{
+  margin-top: 4vw;
+  margin-left: .5vw;
+  min-width: 10vw;
+  min-height: 10vw; 
+}

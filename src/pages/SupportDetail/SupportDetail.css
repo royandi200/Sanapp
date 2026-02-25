@@ -1,0 +1,7 @@
+.supUseImg{
+    height: 141.6vw;
+    width: 80vw !important;
+    background-color: red;
+    margin-top: 5vh;
+    margin-left: calc(10vw - 16px);
+}

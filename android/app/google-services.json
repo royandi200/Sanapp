@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "955628521565",
+    "firebase_url": "https://san-app-271500.firebaseio.com",
+    "project_id": "san-app-271500",
+    "storage_bucket": "san-app-271500.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955628521565:android:a5774911e9fb418546e5b4",
+        "android_client_info": {
+          "package_name": "io.san.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955628521565-25bn42equsj5gobl62b0b1kba9gt1urt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCla2FN0gmesyghoHOnrh_i58W5NZx7ouk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955628521565-25bn42equsj5gobl62b0b1kba9gt1urt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

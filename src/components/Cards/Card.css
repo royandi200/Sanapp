@@ -1,0 +1,799 @@
+.cardCatalogue{
+  width: 9vh;
+  height: 9vh;
+  float: left;
+  margin-bottom: 1.5vh;
+  margin-left: calc( ( (100vw - 28vh - 32px) / 4 )   );
+}
+
+.cardCatalogue0{
+  width: 25vw;
+  height: 25vw;
+  float: left;
+  margin-bottom: 5vh;
+  margin-left: 5vw;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.cardContent{
+  border: solid white;
+  border-width: 2px;
+  border-radius: 10px;
+  width: 12vh - 16px;
+  height: calc( 12vh - 16px) ;
+}
+
+.cardContentImg{
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: calc(18vw - 16px);
+  height: calc(18vw - 16px) ;
+  margin-left: 1.75vw;
+}
+
+.cardContentTxt{
+  font-size: 11px;
+  color: white;
+  margin-top: 0vh;
+  line-height: 100%;
+  
+}
+
+.subCategory{
+  clear: left;
+  margin-top: 16px;
+  padding-top: 16px;
+}
+
+.cardProduct{
+  width: 30vw;
+  float: left;
+}
+
+.cardProduct11{
+  width: 30vw;
+  float: left;
+  margin-bottom: 3vh;
+  margin-left: .75vw;
+}
+
+.cardProducTxt{
+  font-size: 21px;
+  color: #2C4841;
+
+}
+
+.cardProducTxt2{
+  font-size: 14px;
+  color: #7F8D9A;
+}
+
+.cardProducTxt3{
+  font-size: 12px;
+  color: #2C4841;
+}
+
+.cardProducTxt4{
+  font-size: 8px;
+  color: #2C4841;
+
+}
+
+.max16{
+  max-height: 16px;
+  min-height: 16px;
+  margin-top: 8px;
+}
+
+.cardProducImg{
+  height: 13vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  
+}
+
+.cardProductCbb{
+  height: 24px !important;
+  border-radius: 8px !important;
+  color: #7F8D9A;
+  --background: #F0F4F8;
+  --border-color: #F0F4F8;
+  font-family: "Helvetica";
+  --padding-bottom: 0px;
+  --padding-top: -20px;
+  --padding-left: 0px;
+  --padding-rigth: 0px;
+  font-size: 10px;
+
+}
+
+.cbbPresentation{
+  height: 24px !important;
+  border-radius: 8px !important;
+  color: #2C4841;
+  background-color: #F0F4F8;
+  font-family: "Helvetica";  
+  font-size: 14px;
+  line-height: 24px;
+  z-index: 9;
+}
+
+.cbbPresentation2{
+  height: 24px !important;
+  border-radius: 8px !important;
+  color: #2C4841;
+  background-color: #F0F4F8;
+  font-family: "Helvetica";  
+  font-size: 14px;
+  line-height: 24px; 
+  width: 90%;
+  margin-left: 5%;
+  z-index: 9;
+}
+
+.cbbOpracity{
+  opacity: 0.7;
+}
+
+.cbbMarginTop{
+  height: calc(13vh - 48px);
+}
+
+.cardPresentation{
+ height: 24px;
+}
+
+.cardValores{
+  margin-top: 4px;
+  
+  color: #748A9D;
+}
+
+.cardValoresDet{
+  margin-top: 8px;
+}
+
+.cardValue{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #2C4841;
+}
+
+
+.cardValueQuantity{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #2C4841;
+}
+
+.cardValueDet{
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+  color: #748A9D;
+}
+
+.cbbIcon{
+  width: 4vw;
+  float: right;
+  margin-right: 8px;
+  margin-top: 1vw ;
+  padding: 3px;
+}
+
+.cbbIcon2{
+  width: 7vw;
+  float: right;
+  margin-right: 8px;
+  margin-top: 2vw;
+  padding: 5px;
+}
+
+.cardRow{
+  margin-top: -1.2vh;
+  height: 20px;
+}
+
+.cardSubTxt{
+  font-family: Helvetica;
+  font-size: 16px;
+  margin-left: 16px;
+  margin-bottom: 8px;
+  color: #DB6152;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.presentatioRow{
+  border-bottom: solid #F2F2F2;
+  border-width: 1px; 
+}
+
+.cardDetailProductImg{
+  height: 33vh;
+  width: 33vh;
+  margin-left: calc( (100vw - 33vh ) /2 );
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.cbbPresentationDet{
+  height: 40px !important;
+  border-radius: 10px !important;
+  color: #748A9D;
+  background-color: #F0F4F8;
+  font-family: "Helvetica";  
+  font-size: 24px;
+  line-height: 40px;
+  margin-left: -5vw;
+  width: 80vw;
+  opacity: .7;
+}
+
+.cbbPresentationDet2{
+  height: 40px !important;
+  border-radius: 10px !important;
+  color: #748A9D;
+  background-color: #F0F4F8;
+  font-family: "Helvetica";  
+  font-size: 24px;
+  line-height: 40px;
+  width: 70vw;
+  opacity: .7;
+  margin-left: -2vw;
+}
+
+.cardProdDetTop{
+  margin-top: 2vh;
+}
+
+.cardProductDetTop{
+height: 22vh;
+}
+
+.cardProductDetName{
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 2vh;
+  color: #7F8D9A;
+  font-size: 25px;
+  font-family: Helvetica;
+
+}
+
+
+.cardProductDetName22{
+  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 2vh;
+  color: #7F8D9A;
+  font-size: 25px;
+  font-family: Helvetica;
+
+}
+
+.cardSkeleton1{
+  width: 30vw;
+  height: 15vh;
+  margin-left: 2.5vw;
+  float: left;
+}
+
+.ripple-parent {
+  position: relative;
+  overflow: hidden;
+}
+
+.productDetTxt1{
+  font-size: 24px;
+}
+.productDetTxt2{
+  font-size: 20px;
+  color: #7F8D9A;
+}
+.productDetTxt3{
+  font-size: 37px;
+  color: #7F8D9A;
+}
+.productDetTxt4{
+  font-size: 52px;
+  color: #7F8D9A;
+}
+
+
+.CardOrderProductLeft{
+  float: left;
+  margin-top: 1vh;
+}
+
+.cardOrderProductBack{
+  background-color: #F0F4F8;
+  border-radius: 8px;
+  height: 12vh;
+  margin-bottom: 12px;
+}
+
+.cardOrderProductImg{
+  height: 10vh;
+  min-width: 20vw;
+  max-width: 20vw;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.cardOrderProduct30{
+  width: 37vw;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+
+.cardOrderProduct20{
+  width: 25vw;
+  margin-top: 2vh;
+}
+
+.cardOrderProductBack2{
+  background-color: #fff;
+  border-radius: 8px;
+  height: 3vh;
+}
+
+.cardOrderProductName{
+  color: #748A9D;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  font-size: .8rem;
+}
+
+.cardOrderProductPresentation{
+  color: #7F8D9A;
+  margin-right: 4vw;;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  
+}
+
+.cardOrderProductPrice{
+  font-size: .7rem;
+  color: #7F8D9A;
+}
+
+.cardOrderProductPrice2{
+  font-size: .85rem;
+  color: #7F8D9A;
+}
+
+
+
+.cardProductValue{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 2.8vh;
+  color: #748A9D;
+  padding-left:0px;
+  padding-right:0px;
+  padding-top:3px;
+}
+
+.cardRelative{
+  position: relative;
+}
+
+.cardProductMiddle1{
+  margin-top: 2vh;
+}
+.cardProductMiddle1{
+  margin-top: 2.5vh;
+}
+
+.cardOrderProductPrice{
+  margin-top: 4px;
+}
+
+.sugerido{
+  width: 30vw;
+  float: left;
+  margin-left: 3.33vw  ;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+
+.txtSugerido{
+  clear: both;
+  font-size: 30px;
+  color: #2C4841;
+  padding-bottom: 2vh;
+}
+
+.preSUgerido{
+  padding-top: 80vh;
+}
+
+.divSugerido{
+  position: fixed;
+  bottom: 16px;
+  -webkit-box-shadow: 0px -5px 30px -20px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px -5px 30px -20px rgba(0,0,0,0.75);
+  box-shadow: 0px -5px 30px -20px rgba(0,0,0,0.75);
+  margin-bottom: -4vh;
+}
+
+
+.cardPromotionImg{
+  height: 25vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.cardPromotionCircle{
+  border-radius: 50%;
+  background-color: #F0F4F8;
+  height: 8vw;  
+  width: 8vw; 
+  font-size: 24px;
+  line-height: 8vw;-webkit-box-shadow: 0px 1vw 10px 0px rgba(222,222,222,.5);
+  -moz-box-shadow:0px 1vw 10px 0px rgba(222,222,222,.5);
+  box-shadow: 0px 1vw 20px 0px rgba(190,190,190,.5);
+}
+
+.cardPromotionCircleTop{
+  margin-top: -2vh;
+  line-height: 8vw;
+  color: #8396A8;
+}
+
+.cardPromotionCantidad{
+  color: #286B67;
+  font-size: 20px;
+}
+
+.cardPromotion{
+  -webkit-box-shadow: 0px 0px 35px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 0px 35px -10px rgba(0,0,0,0.57);
+  box-shadow: 0px 0px 35px -10px rgba(0,0,0,0.57);
+  border-radius: 12px;
+  margin-top: 3vh;
+}
+
+.cardPromotionBottom{
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.cardPromotionTxt1{
+  color: #3E3F68;
+  font-size: 16;
+}
+
+.cardPromotionTxt2{
+  color: #286B67;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+
+.cardPromotionTxt3{
+  color: #8A98BA;
+  font-size: 11px;
+}
+
+.cardPromotionOriginalPrice{
+  color: #748A9D;
+  font-size: 10px;
+  text-decoration: line-through;
+}
+
+.cardPromotionActPrice{
+  color: #748A9DA3;
+  font-size: 20px;
+}
+
+.cardPromotionAhorro{
+  color: #E66E5A;
+  font-size: 11px;
+}
+
+.cardPromotionDiscount{
+  color: #E66E5A;
+  font-size: 12px;
+  font-family: Helvetica;
+}
+
+.cardPromotionDiscount2{
+  color: #E66E5A;
+  font-size: 14px;
+  font-family: Helvetica;
+}
+
+.rippleCircle{
+  border-radius: 50%;
+}
+
+.circuloAdjuntar{
+  color:#748A9D;
+  font-size: 14px;
+  font-family: Helvetica;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rotation {
+      
+  background-color: #333;
+  color:#fff;
+  font-size: 20px;
+  text-align: center;
+  width: 10vw;
+  height: 10vw;
+  animation: rotation 2s infinite linear;
+  border-radius:50%;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(76,81,18,1) 29%, rgba(113,121,9,1) 65%, rgba(0,212,255,1) 100%);
+
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+
+#container div {
+  background-color: #333;
+      color:#fff;
+  font-size: 20px;
+  text-align: center;
+  
+  min-height: 100%;
+      border-radius:50%;
+  }
+
+  .cardPromotionPriceTop{
+    height: 6vh;
+  }
+
+  .cardPromotionPrice{
+    position: absolute;
+    left: 64vw;
+    z-index: 88;
+    width: 30vw;
+    margin-top: 11vw;
+  }
+
+#container {
+  width: 30vw;
+  height: 30vw;
+  padding:5px;
+  position: relative;
+  margin-left: 60vw;
+  bottom: 0;
+  animation-name: rotation; 
+  animation-duration: 5s; 
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+      
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.85, #fff),
+    color-stop(0.70, #006362),
+    color-stop(0.25, #DB6152)
+  );
+      border-radius:50%;
+  }
+  
+  #container div {
+    background-color: #fff;
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+    
+    min-height: 100%;
+    border-radius:50%;
+  }
+  
+  .cardFastOrder{
+    margin-bottom: 8vh;
+    color: white;
+  }
+  .cardFastOrderTop{
+    margin-top: 2vh;
+    color: white;
+  }
+
+  .cardVoucherTxt1{
+    color:#748A9D;
+    font-size: 20px;
+    font-family: Helvetica;
+  }
+  .cardVoucherTxt2{
+    color:#006462;
+    font-size: 30px;
+    font-family: Helvetica;
+  }
+
+  .cardVoucherLeftIcon{
+    margin-left: 3vw;
+  }
+
+  .cardBackProdDet{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    left: 6vw;
+    top: 2vw;
+  }
+
+  .cardValidando{
+    height: 8vh;
+    line-height: 8vh;
+    background-color: #F0F4F8;
+    border-radius: 10vh;
+    color: #748A9D;
+    font-family: Helvetica;
+    font-size: 20px;
+  }
+
+
+
+  .cardProducTxt01{
+    margin-top: 8px;
+    font-size: 14px;
+    color: #2C4841;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    
+  }
+  
+  .cardProducTxt02{
+    font-size: 12px;
+    color: #2C4841;
+  }
+
+  .sshadow{
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  .flechaSubCat{
+    width: 24px;
+    height: 24px;
+    margin-top: auto;
+  }
+
+  .leef{
+    float: left;
+  }
+
+  .clearr{
+    clear: both;
+  }
+  .max90{
+    max-width: 90%;
+  }
+
+  @media only screen and (max-width: 385px) {
+    .productDetTxt4{
+      font-size: 36px;
+    }
+    .cardProducTxt {
+      font-size: 18px;
+    }
+    .cardProducTxt01 {
+      font-size: 10px;
+    }
+    .cardDetailProductImg{
+      height: 25vh;
+      width: 25vh;
+      margin-left: calc( (100vw - 25vh ) /2 );
+
+    }
+    .cbbPresentationDet2{
+      height: 30px !important;
+      border-radius: 10px !important;
+      color: #748A9D;
+      background-color: #F0F4F8;
+      font-family: "Helvetica";  
+      font-size: 18px;
+      line-height: 30px;
+      width: 70vw;
+      opacity: .7;
+      margin-left: -12.5vw;
+    }
+    
+    .cbbPresentationDet{
+      height: 30px !important;
+      border-radius: 10px !important;
+      color: #748A9D;
+      background-color: #F0F4F8;
+      font-family: "Helvetica";  
+      font-size: 18px;
+      line-height: 30px;
+      margin-left: -17.5vw;
+      width: 80vw;
+      opacity: .7;
+    }
+    
+    .cardProductDetTop{
+      height: calc(25vh - 60px);
+    }
+
+    
+    .cardProductDetName22{
+      font-size: 16px;
+    }
+    .productDetTxt2{
+      font-size: 14px;
+    }
+    .cardValueDet{
+      font-size: 18px;
+      line-height: 30px;
+    }
+    .cardProducTxt02{
+      font-size:10px;
+      color: #2C4841;
+    }
+    .cardProdDetTop{
+      margin-top: 1vh;
+    }
+    
+  }
+
+  .pirela {
+    padding: 40vh 20vw;
+    
+    
+  }

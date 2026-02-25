@@ -1,0 +1,78 @@
+
+.tabBackImg{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.tabBackContent{
+    position: fixed;
+    width: 100vw;
+    height: 18vw;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    z-index: 95;
+    -webkit-box-shadow: 0px -10px 30px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -10px 30px -20px rgba(0,0,0,0.75);
+    box-shadow: 0px -10px 30px -20px rgba(0,0,0,0.75);
+}
+
+.tabContent{
+    position: fixed;
+    width: 15vw;
+    height: 15vw;
+    bottom: 2vw;
+    left: 12vw;
+    z-index: 99;
+}
+
+.tabContent2{
+    position: fixed;
+    width: 15vw;
+    height: 15vw;
+    bottom: 2vw;
+    left: 32vw;
+    z-index: 99;
+}
+
+.tabContent3{
+    position: fixed;
+    width: 15vw;
+    height: 15vw;
+    bottom: 2vw;
+    left: 72vw;
+    z-index: 99;
+}
+
+.tabContent4{
+    position: fixed;
+    width: 15vw;
+    height: 15vw;
+    bottom: 2vw;
+    left: 52vw;
+    z-index: 99;
+}
+
+.tabContent5{
+    position: fixed;
+    width: 12vw;
+    height: 12vw;
+    bottom: 2vw;
+    left: 75vw;
+    z-index: 99;
+}
+
+.tabSuport{
+    position: fixed;
+    width: 12vw;
+    height: 12vw;
+    bottom: 40px;
+    left: 52vw;
+    z-index: 99;
+}
+
+
+
+
+

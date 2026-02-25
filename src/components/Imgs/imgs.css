@@ -1,0 +1,30 @@
+
+.Imgimg1{
+  height: 23vh;
+  width: calc(100%);
+  position: relative;
+}
+
+.imgBlackBack{
+  position: absolute;
+  margin-top: -10vh;
+  width: calc(100% - 0px);
+  min-height: 10vh;
+  max-height: 10vh;
+  background-color: #00000072;
+}
+
+.border{
+  border-radius: 5px !important;
+  overflow: hidden;
+}
+
+.imgPadding{
+  padding: 8px;
+  color: white;
+  font-size: .75em;
+}
+
+.border{
+  border-radius: 10px;;
+}

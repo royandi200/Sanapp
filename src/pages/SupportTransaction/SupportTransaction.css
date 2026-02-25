@@ -1,0 +1,80 @@
+
+
+.textArea{
+    height: 15vh;
+    
+}
+
+.supAdj{
+    width: 7vw;
+    height: 7vw;
+    float: right;
+    margin-top: 4px;
+}
+
+.supMas{
+    color: #8396A8;
+    margin: 0 auto;
+}
+
+.supcenter{
+    line-height: 30px;
+}
+
+.supTraTop1{
+    margin-top: 13.5vh;
+}
+.myOrderMargin81{
+    margin: 8px;
+    margin-bottom: 16px;
+}
+
+.colorRed{
+    color: #E66E5A;
+}
+
+.padding16{
+    padding: 16px;
+}
+
+.solicitudesTxt{
+    color: #748A9DB0;
+    font-size: 14px;
+    font-family: Helvetica;
+}
+
+.solicitudesTxtAnswer{
+    color: #4E5E6B;
+    font-size: 14px;
+    font-family: Helvetica;
+}
+
+.iconUpp{
+    width: 15vw;
+    height: 15vw;
+    margin-left: 42.5vw;
+}
+
+.txtCon1{
+    color: #A6BCD0;
+    font-size: 24px;
+    font-family: Helvetica;
+}
+
+.txtCon2{
+    color: #006462;
+    font-size: 35px;
+    font-family: Helvetica;
+}
+
+.txtCon3{
+    color: #A6BCD0;
+    font-size: 16px;
+    font-family: Helvetica;
+}
+
+.txtSelecSuppo{
+    color: #DB6152;
+    font-size: 16px;
+    font-family: Helvetica;
+}

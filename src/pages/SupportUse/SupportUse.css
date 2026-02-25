@@ -1,0 +1,17 @@
+.supUseImg{
+  height: 85vw;
+  width: 85vw !important;
+  margin-top: 2vh;
+  margin-left: calc(7.5vw - 16px);
+}
+
+.supUseBox{
+  padding: 8px;
+  background-color: #F0F4F8;
+  border-radius: 8px;
+}
+
+.iconPulgar{
+  width: 12vw;
+  height: 12vw;
+}

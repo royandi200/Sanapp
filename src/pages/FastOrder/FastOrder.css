@@ -1,0 +1,62 @@
+.FastOrderBottom{
+    height: 11vh !important;
+}
+
+.FastOrderTxt24{
+    font-size: 24px;
+    margin-top: 2.5vh;
+    margin-bottom: 3vh;
+}
+
+.fastOrderRadius{
+    border-radius: 10vw;
+    padding: 5px;
+    border: solid 1px red;
+}
+.iconLast{
+    width: 13vw;
+    height: 13vw;
+    margin-top: -13vh;
+    margin-right: 3vw;
+    float: right;
+    z-index: 99;
+}
+
+.iconValidar{
+    margin-top: 20vh;
+    width: 80vw;
+    height: 80vw;
+    margin-left: 10vw;
+}
+
+.txtDuplicar{
+    font-size: 24px;
+    font-family: Helvetica;
+    color: #748A9D;
+    margin-left: 22vw;
+    margin-right: 22vw;
+}
+
+.iconConfirmar{
+    width: 15vw;
+    height: 15vw;
+    float: left;
+    margin-left: 20vw;
+}
+
+.iconNegar{
+    width: 15vw;
+    height: 15vw;
+    float: left;
+    margin-left: 25vw;
+}
+
+
+@media only screen and (max-width: 385px) {
+    .iconValidar{
+        margin-top: 12.5vh;
+        width: 65vw;
+        height: 65vw;
+        margin-left: 17.5vw;
+    }
+}

@@ -1,0 +1,201 @@
+.DeliveryOrderHeader2 {
+  height: 23vh;
+  width: 100vw;
+  margin-left: -16px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.deliveryOrderMinusTop {
+  margin-top: -6vh;
+}
+
+.deliveryMargintTop {
+  margin-top: 3vh;
+}
+
+.deliveryOrderBtn {
+  --background: #e66e5a;
+  --background-activated: #e66e5a;
+  --background-focused: #e66e5a;
+  --background-hover: #e66e5a;
+  height: 7vh;
+  width: 100%;
+  font-size: 16px;
+  --border-radius: 300px;
+  color: #f4f6f8;
+  --box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0),
+    0 0px 0px 0 rgba(0, 0, 0, 0);
+  text-transform: capitalize;
+  font-family: Helvetica;
+  margin-top: 5vh;
+}
+
+.deliveryOrderBtn1 {
+  color: #748a9d;
+  --background: #fff;
+  height: 7vh;
+  width: 100%;
+  font-size: 16px;
+  --border-radius: 300px;
+  --box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0),
+    0 0px 0px 0 rgba(0, 0, 0, 0);
+  font-family: Helvetica;
+  text-transform: capitalize;
+  margin-top: 5vh;
+}
+
+.deliveryOrderIcon {
+  margin-right: 3vw;
+}
+.deliveryOrderIcon1 {
+  margin-left: 3vw;
+}
+
+.deliveryOrderMethod {
+  color: #748a9d;
+  font-size: 20px;
+  font-family: Helvetica;
+}
+
+.deliveryMethodOpc {
+  color: #748a9d;
+  font-size: 16px;
+  font-family: Helvetica;
+  border-radius: 8px;
+  background-color: #f0f4f8;
+  height: 8vh;
+  margin-left: 3vw;
+  line-height: 7vh;
+}
+
+.deliveryMethodOpc2 {
+  color: #748a9d;
+  font-size: 14px;
+  font-family: Helvetica;
+  border-radius: 8px;
+  background-color: #f0f4f8;
+  height: 8vh;
+  margin-left: 3vw;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.deliveryMethodOpc3 {
+  color: #748a9d;
+  font-size: 14px;
+  font-family: Helvetica;
+  border-radius: 8px;
+  background-color: #f0f4f8;
+  height: 8vh;
+  margin-left: 3vw;
+  padding: 0;
+  margin: 0;
+  margin-left: 16px;
+  margin-top: 16px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.deliveryMethodOpc1 {
+  color: #748a9d;
+  font-size: 16px;
+  font-family: Helvetica;
+  border-radius: 8px;
+  background-color: #f0f4f8;
+  height: 8vh;
+  margin-right: 3vw;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.deliveryOrderSelected {
+  background-color: #e66e5a !important;
+  color: #f4f6f8 !important;
+}
+
+.deliveryORderTop2 {
+  margin-top: 2vh;
+}
+
+.deliveryOrderDays {
+  color: #748a9d;
+  font-size: 16px;
+  font-family: Helvetica;
+  border-radius: 8px;
+  background-color: #f0f4f8;
+  height: 8vh;
+  line-height: 8vh;
+  width: 30vw;
+  margin-right: 3vw;
+}
+
+.deliveryOrderDays2 {
+  color: #748a9d;
+  font-size: 16px;
+  font-family: Helvetica;
+  border-radius: 8px;
+  background-color: #f0f4f8;
+  height: 8vh;
+  line-height: 4vh;
+  width: 30vw;
+  margin-right: 3vw;
+}
+
+.deliveryOrderTotales {
+  width: 100vw;
+  background-color: white;
+  bottom: 3vh;
+  left: 0;
+  padding-left: calc (10% - 16px);
+  padding-right: 10%;
+}
+
+.deliveryOrder1 {
+  color: #748a9d;
+  font-size: 16px;
+  font-family: Helvetica;
+}
+.deliveryOrder2 {
+  color: #748a9d;
+  font-size: 14px;
+  font-family: Helvetica;
+}
+
+.deliveryOrder3 {
+  color: #748a9d;
+  font-size: 1.3rem;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.deliveryOrderSiguiente {
+  bottom: 0;
+  margin-top: 6vh;
+}
+
+.deliveryOrdenHidden {
+  visibility: hidden;
+}

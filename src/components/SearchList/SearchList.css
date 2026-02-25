@@ -1,0 +1,41 @@
+.search-list-container {
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 200px;
+    overflow-y: auto;
+    border-radius: 4px;
+    z-index: 99999999;
+    position: fixed;
+    width: calc(100vw - 8px);
+    margin: 4px;
+    margin-top: 86px;
+  }
+  
+  .search-results-list {
+    padding: 0;
+  }
+  
+  /* Personaliza la barra de desplazamiento para navegadores webkit (Chrome, Safari) */
+  .search-list-container::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .search-list-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+  }
+  
+  .search-list-container::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+  }
+  
+  .search-list-container::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+  }
+
+.itemTxt{
+    color: #748A9D;
+    font-family: Helvetica;
+    font-size: 16px;
+}

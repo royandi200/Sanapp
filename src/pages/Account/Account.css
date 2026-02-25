@@ -1,0 +1,31 @@
+.catalogueHeader_{
+  height: 15vh;
+  width: 100vw;
+  margin-left: -16px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.accountBox{
+  height: 7vh;
+  background-color: #F0F4F8;
+  border-radius: 8px;
+  margin-top: 4px;
+}
+
+.accountTxt1{
+  line-height: 6vh;
+  color: #748A9D;
+  font-size: 16px;
+  font-family: Helvetica  ;
+}
+
+
+@media only screen and (max-width: 385px) {
+  .accountTxt1{
+    font-size: 12px;
+  }
+}

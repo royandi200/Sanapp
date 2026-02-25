@@ -1,0 +1,23 @@
+.catalogueHeader_{
+  height: 15vh;
+  width: 100vw;
+  margin-left: -16px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.supportBox{
+  background-color: #F0F4F8;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.supportIcon{
+  margin-left: 3vw;
+  margin-top: 2vh;
+  width: 2vh;
+  height: 2vh;
+}

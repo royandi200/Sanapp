@@ -1,0 +1,182 @@
+.asdasd{
+  max-height: calc(100vh - 100px - 145px - 85px);
+  overflow-x:auto;
+  width: 125vw;
+  white-space:nowrap;
+}
+
+.contentAsd{
+  max-width: 90vw;
+}
+
+.catalogueHeader {
+  height: 23vh;
+  width: 100vw;
+  min-height: 170px;
+  margin-left: -16px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.catalogueHeader02 {
+  height: 15vh !important;
+  width: 100vw;
+  min-height: 105px;
+  margin-left: -16px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.catalogueHeader022{
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding-bottom: 5px;
+  
+  
+}
+
+.catalogueTxt24 {
+  font-size: 24px;
+  margin-top: 2.5vh;
+}
+.catalogue0Txt24 {
+  font-size: 24px;
+  margin-top: 5vh;
+}
+.cataloguePromoTxt24{
+  font-size: 20px;
+  margin-left: 32px;
+}
+.catalogueBuscar {
+  padding-top: 4vh;
+}
+
+.catalogueInput {
+  background-color: transparent;
+  width: 100vw !important;
+  margin-left: 0vw !important;
+  color: #748a9d;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 5px 30px -15px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  
+  height: 80px;
+  
+  margin: auto auto 15px;
+}
+
+.catalogueCard {
+  margin-top: 2.5vh !important;
+}
+
+.catalogueCurso {
+  width: 35vw;
+  z-index: 9999;
+  border: solid 1px #db6152;
+  border-radius: 20px;
+  float: left;
+  line-height: 8vw;
+  position: absolute;
+  margin-left: 63vw;
+  top: 1vh;
+  padding: 3px;
+  padding-left: 3vw;
+  color: #748a9d;
+  font-size: 11px;
+  font-family: helvetica;
+}
+
+.catalogueNumber {
+  position: absolute;
+  background-color: #db6152;
+  border-radius: 100%;
+  top: 0.3vh;
+  left: 62vw;
+  font-size: 12px;
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  z-index: 99999;
+  line-height: 20px;
+}
+
+.iconCurso {
+  z-index: 9999;
+  width: 8vw;
+  height: 8vw;
+  float: right;
+}
+
+.loading {
+  width: 18vw;
+  height: 18vw;
+}
+
+.contModalInf {
+  padding: 16px;
+  overflow: auto;
+}
+
+.notificacionTxt {
+  font-size: 12px;
+  text-align: justify;
+}
+
+.modalInformativo {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  --border-radius: 12px;
+}
+
+.modalInformativo .modal-wrapper .ion-page {
+  justify-content: flex-start;
+}
+
+.titlePadding20 {
+  margin-left: -5px;
+  margin-right: -20px;
+}
+
+@media only screen and (max-width: 385px) {
+  .catalogueCurso {
+    width: 40vw;
+    z-index: 9999;
+    border: solid 1px #db6152;
+    border-radius: 20px;
+    float: left;
+    line-height: 8vw;
+    position: absolute;
+    margin-left: 58vw;
+    top: 1vh;
+    padding: 3px;
+    padding-left: 3vw;
+    color: #748a9d;
+    font-size: 11px;
+    font-family: helvetica;
+  }
+
+  .catalogueNumber {
+    left: 56vw;
+  }
+}
+
+
+.scroll {
+  margin: 4px, 4px;
+  padding: 4px;
+  background-color: #08c708;
+  width: 125vw;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}

@@ -1,0 +1,36 @@
+.catalogueHeader{
+  height: 23vh;
+  width: 100vw;
+  margin-left: -16px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+
+.catalogueBuscar1{
+  padding-top: 2vh;
+}
+
+.catalogueInput{
+  width: 85vw;
+  margin-left: 7.5vw;
+}
+
+.catalogueCard{
+  margin: -16px;
+}
+
+.categoryBottom{
+  min-height: 11vh;
+}
+
+.categoryBack{
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  left: 8vw;
+  top: 8vw;
+}

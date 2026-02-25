@@ -1,0 +1,9 @@
+
+
+.cardTitulo{
+  color: #5887F9;
+}
+
+.ToasError{   
+  --ion-color-base: red !important; 
+}

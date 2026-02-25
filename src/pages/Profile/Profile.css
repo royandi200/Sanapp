@@ -1,0 +1,37 @@
+
+.profileBox{
+  background-color: #F0F4F8;
+  border-radius: 8px;
+  margin-top: 4px;
+}
+
+.profileTxt1{
+  color: #748A9D;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  font-size: 20px;
+  font-family: Helvetica;
+}
+
+.profileTxt2{
+  color: #2C4841;
+  font-size: 20px;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+
+.profileTxt22{
+  color: #748A9D;
+  font-size: 16px;
+  font-family: Helvetica;
+}
+
+.marBot{
+  border-radius: 8px !important;
+  color: #A6BCD0;
+  --background: #F0F4F8;
+  margin-bottom: 0px;
+  --border-color: #F0F4F8;
+  font-family: "Helvetica";
+}

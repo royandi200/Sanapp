@@ -1,0 +1,7 @@
+{
+  "name": "San App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

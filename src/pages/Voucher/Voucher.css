@@ -1,0 +1,70 @@
+
+.voucherValidar{
+    margin-top: 20vh;
+    width: 80vw;
+    height: 80vw;
+    margin-left: calc(10vw - 16px);
+}
+.voucherTime{
+    margin-top: 20vh;
+    width: 80vw;
+    height: 80vw;
+    margin-left: calc(10vw - 16px);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.voucherTime2{
+    margin-top: 35vh;
+    width: 80vw;
+    margin-left: calc(10vw - 16px);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.voucherTxtTime{
+    font-size: 74px;
+    color: #006462;
+    font-family: Helvetica;
+    font-weight: bold;
+    line-height: 80vw;
+    
+}
+.voucherHoraEntrega{
+    margin-top: 8px;
+    color: #006462;
+    font-size: 20px;
+    font-family: Helvetica;
+}
+
+.voucherHoraEntrega2{
+    margin: 40px 10vw;
+    color: #006462;
+    font-size: 32px;
+    font-family: Helvetica;
+}
+
+.voucherDia{
+    margin-top: 8px;
+    color: #006462;
+    font-size: 20px;
+    font-family: Helvetica;
+    width: 60vw;
+    background-color: #F0F4F8;
+    border-radius: 8px;
+    margin-left: calc(20vw - 16px);
+}
+.voucherHora{
+    color: #006462;
+    font-size: 34px;
+    font-family: Helvetica;
+    width: 50vw;
+    background-color: #F0F4F8;
+    border-radius: 8px;
+    margin-left: calc(25vw - 16px);
+    margin-top: 8px;
+    height: 5vh;
+    line-height: 5vh;
+}

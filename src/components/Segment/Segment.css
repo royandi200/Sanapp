@@ -1,0 +1,23 @@
+
+.segment{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    margin-left: auto;
+    z-index: 9999;
+}
+
+.segment1{
+    width: 10vw;
+    height: 10vw;
+}
+
+.segment2{
+    width: 8vw;
+    height: 7vw;
+}
+
+.sc-ion-segment-md-h.ion-color.sc-ion-segment-md-s > .segment-button-checked {
+    --indicator-color-checked: white
+}

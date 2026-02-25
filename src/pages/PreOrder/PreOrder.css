@@ -1,0 +1,56 @@
+.preOrderCenter{
+  line-height: 9.5vh;
+  font-size: 24px;
+}
+
+.preOrderTop{
+  margin-top: 2vh;
+  margin-bottom: 10vh;
+}
+
+.preOrderTop1{
+  margin-top: 2vh;
+}
+
+.preOrderTotales{
+  width: 100vw;
+  background-color: white;
+  bottom: 20vw;
+  left: 0;
+  padding-bottom: 20vw;
+  padding-left: calc (10% - 16px);
+  padding-right: 10%;
+  
+}
+
+.preOrderToOrder{
+  --background: #E66E5A;
+  --background-activated: #E66E5A;
+  --background-focused: #E66E5A;
+  --background-hover:	#E66E5A;
+  height: 8vh;
+  width: 100%;
+  font-size: 18px;
+  --border-radius	:300px;
+}
+
+.preOrderRight{
+  text-align: right;
+  margin-right: 10%;
+}
+
+.preOrderSubTotal{
+  color: #748A9D;
+  font-size: 20px;
+  font-family: Helvetica;
+}
+.preOrderTotal{
+  color: #748A9D;
+  font-size: 24px;
+  font-family: Helvetica;
+}
+.preOrderAhorro{
+  color: #E66E5A;
+  font-size: 16px;
+  font-family: Helvetica;
+}

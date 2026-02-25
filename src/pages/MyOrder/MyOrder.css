@@ -1,0 +1,20 @@
+.MyOrderRow{
+    color: #748A9D;
+    font-size: 16px;
+    font-family: Helvetica;
+}
+
+.MyOrderRowProduct{
+    
+    font-size: 14px;
+}
+
+.lineHe{
+    font-size: 16px;
+    height: 7vh;
+    line-height: 6vh;
+}
+
+.myOrderMargin8{
+    margin: 8px;
+}

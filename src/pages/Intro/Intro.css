@@ -1,0 +1,51 @@
+.introHeader{
+  height: 20vh;
+  background-image: url("../../img/fondoSuperior.png");
+  width: 100vw;
+  margin-left: -16px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+  
+.introSlide{
+  width: 90vw;
+  height: 65vh;
+  --bullet-background-active: #A6BCD0;
+}
+
+.introSlideImage{
+  width: 90vw;
+  height: 45vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.introTxt{
+  margin-top: 24px;
+  color: #748A9D !important;
+  font-size: 17px !important;
+  font-family: 'helvetica' !important;
+}
+
+.introDescartar{
+  margin-top: 6.5vh;
+  font-size: 14px !important;
+  font-family: 'helvetica' !important;
+}
+
+.introLogo{
+  height: 14vh;
+  width: 18vh;
+  margin-left: 32vw;
+}
+
+.imgInto{
+  min-width: 90vw !important;
+  min-height: 90vw !important;
+  max-width: 90vw !important;
+  max-height: 90vw !important;
+}
