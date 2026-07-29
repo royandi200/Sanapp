@@ -96,7 +96,7 @@ export function Map({
   };
   /*  
 const fetchApiFromAddres = (addres: string) => {
-  fetch('https://maps.googleapis.com/maps/api/geocode/json?address='+addres+'&key=AIzaSyDzp1SQj-bar6_QU2tCyEvBjHegEROQA0k')
+  fetch('https://maps.googleapis.com/maps/api/geocode/json?address='+addres+'&key=AIzaSyCqzCimVXRnvpCq5VDI8ayPamrqD3jZ8zE')
     .then((res) => res.json())
     .then((data: any) => {
       console.log("data2", data)
@@ -110,7 +110,7 @@ const fetchApiFromAddres = (addres: string) => {
         lat +
         "%20" +
         lng +
-        "&key=AIzaSyDzp1SQj-bar6_QU2tCyEvBjHegEROQA0k"
+        "&key=AIzaSyCqzCimVXRnvpCq5VDI8ayPamrqD3jZ8zE"
     )
       .then((res: any) => res.json())
       .then((data: any) => {

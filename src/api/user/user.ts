@@ -14,7 +14,7 @@ export const getUsuDetail = async () => {
 }
 
 export function getAddres(){
-    return getAxio().get('https://maps.googleapis.com/maps/api/geocode/json?latlng=44.4647452,7.3553838&key=AIzaSyDzp1SQj-bar6_QU2tCyEvBjHegEROQA0k').then((res:any) => {
+    return getAxio().get('https://maps.googleapis.com/maps/api/geocode/json?latlng=44.4647452,7.3553838&key=AIzaSyCqzCimVXRnvpCq5VDI8ayPamrqD3jZ8zE').then((res:any) => {
         return res.data
      } ) 
 }
