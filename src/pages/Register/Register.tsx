@@ -41,9 +41,8 @@ import * as EmailValidator from 'email-validator';
 import { TYPE } from '../../const/functions';
 //import { Device } from '@capacitor/device';
 
-import { Plugins } from '@capacitor/core';
+import { Device } from '@capacitor/device';
 
-  const { Device } = Plugins;
 
   const initialState = {
     nombre: '',

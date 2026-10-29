@@ -1,9 +1,8 @@
 import React, { useEffect } from "react";
-import { Plugins } from "@capacitor/core";
+import { App as CapApp } from "@capacitor/app";
 
 import { useHistory } from "react-router-dom";
 
-const { App: CapApp } = Plugins;
 
 const AppUrlListener: React.FC<any> = () => {
   const history = useHistory();
@@ -55,8 +54,8 @@ const AppUrlListener: React.FC<any> = () => {
     });
 
     CapApp.getLaunchUrl()
-      .then(({ url, ...rest }) => {
-        handleDeepLink(url);
+      .then((launch) => {
+        handleDeepLink(launch?.url ?? null);
       })
       .catch((err) => {
         console.error("Error en getLaunchUrl:", err);

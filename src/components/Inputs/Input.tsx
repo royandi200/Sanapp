@@ -4,7 +4,7 @@ import './Input.css'
 
 import { IonItem, IonLabel, IonInput, IonImg, IonSelect, IonSelectOption, IonList } from '@ionic/react';
 
-import { Plugins, CameraResultType } from '@capacitor/core';
+import { Camera, CameraResultType } from '@capacitor/camera';
 //import { Camera, CameraResultType } from '@capacitor/camera';
 
 interface PropInput{
@@ -86,7 +86,6 @@ export function InputSelect ( {positionTxt, data, txt, onInput, icon, placeholde
 
 export async function takePicture() {
   
-  const { Camera } = Plugins;
   const image = await Camera.getPhoto({
     quality: 80,
     allowEditing: false,

@@ -1,9 +1,6 @@
 import axios from "axios";
 
-import { Plugins } from "@capacitor/core";
-//import { Storage } from '@capacitor/storage';
-
-const { Storage } = Plugins;
+import { Preferences as Storage } from "@capacitor/preferences";
 
 //const URL = "https://api-san-andres.vercel.app/auth/";
 //const URL = 'https://162.241.100.130:3004/auth/'

@@ -22,9 +22,8 @@ import { Input } from "../../components/Inputs/Input";
 import { Toast } from "../../components/Alert/Alert";
 import { getLocal, getLocalUser } from "../../api/user/user";
 
-import { Plugins } from "@capacitor/core";
+import { Device } from "@capacitor/device";
 
-const { Device } = Plugins;
 
 let datosDevice: any = {};
 

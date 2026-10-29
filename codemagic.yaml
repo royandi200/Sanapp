@@ -1,0 +1,47 @@
+workflows:
+  ios-appstore:
+    name: SanApp iOS → App Store
+    max_build_duration: 60
+    instance_type: mac_mini_m2
+    integrations:
+      # Nombre de la API key de App Store Connect creada en Codemagic
+      # (Team settings → Integrations → Developer Portal)
+      app_store_connect: SanApp ASC
+    environment:
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: io.san.app
+      node: 22
+      xcode: latest
+      cocoapods: default
+      vars:
+        NODE_OPTIONS: --openssl-legacy-provider
+        XCODE_WORKSPACE: ios/App/App.xcworkspace
+        XCODE_SCHEME: App
+        # Apple ID de la app (App Store Connect → Información de la app → Apple ID)
+        APP_STORE_APPLE_ID: "PENDIENTE"
+    scripts:
+      - name: Instalar dependencias
+        script: npm ci --legacy-peer-deps
+      - name: Compilar la web
+        script: npx react-scripts build
+      - name: Sincronizar con iOS
+        script: npx cap sync ios
+      - name: Firma
+        script: xcode-project use-profiles
+      - name: Número de build (último en App Store Connect + 1)
+        script: |
+          LATEST=$(app-store-connect get-latest-app-store-build-number "$APP_STORE_APPLE_ID" || echo 0)
+          cd ios/App && agvtool new-version -all $(($LATEST + 1))
+      - name: Compilar IPA
+        script: |
+          xcode-project build-ipa \
+            --workspace "$XCODE_WORKSPACE" \
+            --scheme "$XCODE_SCHEME"
+    artifacts:
+      - build/ios/ipa/*.ipa
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: true
+        submit_to_app_store: false

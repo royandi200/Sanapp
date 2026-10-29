@@ -42,7 +42,7 @@ import { getAllNotificaction } from "../../api/notificacion/notificacion";
 
 import { Toast } from "../../components/Alert/Alert";
 
-import { Plugins, PushNotificationToken } from "@capacitor/core";
+import { PushNotifications, Token as PushNotificationToken } from "@capacitor/push-notifications";
 import { putUsu, getLocalUser, removeSesionData } from "../../api/user/user";
 import { CustomCarousel } from "../../components/Carousel/Carousel";
 import { CustomCarouselCaro } from "../../components/CarouselReco/CarouselReco";
@@ -51,7 +51,6 @@ import { AddProductOrderNEW } from "../../const/functions";
 import { useLocation } from "react-router-dom";
 import { SearchList } from "../../components/SearchList/SearchList";
 
-const { PushNotifications } = Plugins;
 
 const Catalogue: React.FC<any> = (props) => {
   const timerRef = useRef<NodeJS.Timeout | null | any>(null);

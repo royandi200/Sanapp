@@ -1,9 +1,6 @@
 import {getAxio} from '../api';
 
-import { Plugins } from '@capacitor/core';
-//import { Storage } from '@capacitor/storage';
-
-const { Storage } = Plugins;
+import { Preferences as Storage } from '@capacitor/preferences';
 
 const path = "user/"
     

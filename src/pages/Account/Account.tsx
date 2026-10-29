@@ -26,15 +26,14 @@ import {
 } from "../../const/imgs";
 
 import {
-  Plugins,
-  PushNotification,
-  PushNotificationToken,
-  PushNotificationActionPerformed,
-} from "@capacitor/core";
+  PushNotifications,
+  PushNotificationSchema as PushNotification,
+  Token as PushNotificationToken,
+  ActionPerformed as PushNotificationActionPerformed,
+} from "@capacitor/push-notifications";
 import { getPoliticas, getWs } from "../../api/public/public";
 import InfoContext from "../../context/InfoContext";
 
-const { PushNotifications } = Plugins;
 
 const Account: React.FC<any> = (props) => {
   const { loadingCar } = useContext<any>(InfoContext);

@@ -1,16 +1,24 @@
 {
-  "appId": "io.san.app",
-  "appName": "San App",
-  "bundledWebRuntime": false,
-  "npmClient": "npm",
-  "webDir": "build",
-  "cordova": {},
-  "android": {
-    "scheme": "sanapp"  
-  },
-  "plugins": {
-    "App": {
-      "scheme": "sanapp"
-    }
-  }
+	"appId": "io.san.app",
+	"appName": "San App",
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"webDir": "build",
+	"cordova": {},
+	"android": {
+		"scheme": "sanapp"
+	},
+	"plugins": {
+		"App": {
+			"scheme": "sanapp"
+		}
+	},
+	"packageClassList": [
+		"AppPlugin",
+		"CAPCameraPlugin",
+		"DevicePlugin",
+		"PreferencesPlugin",
+		"PushNotificationsPlugin",
+		"CDVPlugin"
+	]
 }

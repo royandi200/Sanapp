@@ -3,11 +3,14 @@
   "version": "0.0.2",
   "private": true,
   "dependencies": {
-    "@capacitor-community/fcm": "1.0.7",
     "@capacitor/android": "^2.2.1",
-    "@capacitor/core": "1.4.0",
-    "@capacitor/device": "^1.0.0",
-    "@capacitor/storage": "^1.0.0",
+    "@capacitor/app": "^7.1.2",
+    "@capacitor/camera": "^7.0.5",
+    "@capacitor/core": "^7.6.10",
+    "@capacitor/device": "^7.0.5",
+    "@capacitor/ios": "^7.6.10",
+    "@capacitor/preferences": "^7.0.4",
+    "@capacitor/push-notifications": "^7.0.7",
     "@ionic-native/core": "^5.26.0",
     "@ionic-native/screen-orientation": "^5.27.0",
     "@ionic/react": "^4.11.8",
@@ -77,6 +80,6 @@
   },
   "description": "An Ionic project",
   "devDependencies": {
-    "@capacitor/cli": "1.4.0"
+    "@capacitor/cli": "^7.6.10"
   }
 }
