@@ -1,13 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 31
+    namespace "io.san.app"
+    compileSdkVersion 35
     defaultConfig {
         applicationId "io.san.app"
         minSdkVersion 23
-        targetSdkVersion 31
-        versionCode 27
-        versionName "1.0"
+        targetSdkVersion 35
+        versionCode 32
+        versionName "1.0.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -19,9 +20,6 @@ android {
 }
 
 repositories {
-    maven {
-        url  "https://dl.bintray.com/ionic-team/capacitor"
-    }
     flatDir{
         dirs '../capacitor-cordova-android-plugins/src/main/libs', 'libs'
     }
