@@ -1,6 +1,6 @@
 # SanApp
 
-App Ionic React + Capacitor 7 (`io.san.app`) para Android e iOS. Web en `src/`, se compila a `build/`.
+App Ionic React + Capacitor 7 (Android `io.san.app`, iOS `io.san.appios`). Web en `src/`, se compila a `build/`.
 
 - Compilar web: `NODE_OPTIONS=--openssl-legacy-provider npx react-scripts build` (react-scripts 3 con Node 22).
 - iOS se compila en Codemagic (`codemagic.yaml`), no hay Mac local.

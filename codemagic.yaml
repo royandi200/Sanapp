@@ -10,7 +10,7 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: io.san.app
+        bundle_identifier: io.san.appios
       node: 22
       xcode: latest
       cocoapods: default
@@ -18,7 +18,7 @@ workflows:
         NODE_OPTIONS: --openssl-legacy-provider
         XCODE_WORKSPACE: ios/App/App.xcworkspace
         XCODE_SCHEME: App
-        BUNDLE_ID: io.san.app
+        BUNDLE_ID: io.san.appios
     scripts:
       - name: Instalar dependencias
         script: npm ci --legacy-peer-deps
