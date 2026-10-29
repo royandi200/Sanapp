@@ -28,12 +28,11 @@ workflows:
         script: npx cap sync ios
       - name: Firma
         script: xcode-project use-profiles
-      - name: Número de build (último en App Store Connect + 1)
+      - name: Número de build (fecha y hora, siempre creciente)
         script: |
-          APP_ID=$(app-store-connect apps list --bundle-id-identifier "$BUNDLE_ID" --strict-match-identifier --json \
-            | python3 -c 'import sys,json; print(json.load(sys.stdin)[0]["id"])')
-          LATEST=$(app-store-connect get-latest-build-number "$APP_ID" || echo 0)
-          cd ios/App && agvtool new-version -all $(($LATEST + 1))
+          BUILD=$(TZ=America/Bogota date +%y%m%d%H%M)
+          echo "Número de build: $BUILD"
+          cd ios/App && agvtool new-version -all $BUILD
       - name: Compilar IPA
         script: |
           xcode-project build-ipa \
