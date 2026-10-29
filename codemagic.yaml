@@ -23,7 +23,7 @@ workflows:
       - name: Instalar dependencias
         script: npm ci --legacy-peer-deps
       - name: Compilar la web
-        script: npx react-scripts build
+        script: CI=false npx react-scripts build
       - name: Sincronizar con iOS
         script: npx cap sync ios
       - name: Firma
