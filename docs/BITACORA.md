@@ -8,3 +8,10 @@
 - Pendiente: Apple ID de la app en `codemagic.yaml`, API key de App Store Connect en Codemagic, probar en TestFlight.
 - Push en iOS no funciona (no hay APNs configurado y el backend espera tokens FCM).
 - 2026-10-26: el mapa fallaba por facturaciÃ³n de Google Cloud desactivada en `san-app-497901`; se reactivÃ³.
+
+## 2026-10-29 — iOS 2.0.1 enviada a revisión de Apple
+- App en App Store Connect: id 1518314483, bundle `io.san.appios` (no `io.san.app`). Ya había 2.0 publicada.
+- Firma en Codemagic: certificado «SanApp dist» y perfil «SanApp AppStore» (Settings → Code signing identities). Llave API «SanApp ASC».
+- Número de build = fecha/hora Bogotá (`yyMMddHHmm`); la consulta a ASC devolvía uno repetido.
+- Compilación 2610290039 enviada a revisión el 29 oct 2026, 0:54.
+- Pendiente: datos de prueba de TestFlight (correo de comentarios y contacto) para que el paso «App Store distribution» no falle; unir la rama `ios-appstore` a `main` cuando Apple apruebe.
