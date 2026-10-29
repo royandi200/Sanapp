@@ -1,4 +1,4 @@
-﻿# BitÃ¡cora SanApp
+# BitÃ¡cora SanApp
 
 ## 2026-10-28 â€” Preparar versiÃ³n iOS 1.0.2
 - Guardada en git la versiÃ³n de Play 1.0.2 (versionCode 32), que solo estaba local.
